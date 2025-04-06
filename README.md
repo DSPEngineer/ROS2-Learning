@@ -21,3 +21,10 @@ https://hub.docker.com/repository/docker/genieengineer/linux-amd64-ros2-humble/g
 
 https://hub.docker.com/repository/docker/genieengineer/linux-amd64-ros2-jazzy/general
 ```
+## Local ROS2 Installation
+I encourage you to install ROS2 locally and explore the features and capabilities it provides. The the link below will guid you on installing Jazzy. I recommend installing the _.deb_ packages for Ubuntu (24.04). 
+```
+https://docs.ros.org/en/jazzy/Installation.html
+```
+
+
