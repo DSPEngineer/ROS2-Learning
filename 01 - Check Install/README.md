@@ -1,4 +1,4 @@
-# Developer Environment
+ # Developer Environment
 
 Lets be sure we have the right environment for the remaining tutorials, in the repository.
 
@@ -61,3 +61,12 @@ jazzy
 The ROS2 _underlay_ provides the required build tools (colcon, cmake, etc.), package dependencies, libraries and other ROS2 packages. The _underlay_ (setup.bash) essentially enables the ROS2 development environment.
 
 _**NOTE:**_ you will need to create a new _underlay_ for each terminal you intend to use for ROS development or testing. Be sure to source this file or add it to your "_.bashrc_" or "_.bash_aliases_" file.
+
+The following command shows other ROS2 variables created by the _underlay_:
+```bash
+env | grep ^ROS_
+    ROS_VERSION=2
+    ROS_PYTHON_VERSION=3
+    ROS_AUTOMATIC_DISCOVERY_RANGE=SUBNET
+    ROS_DISTRO=jazzy
+```
